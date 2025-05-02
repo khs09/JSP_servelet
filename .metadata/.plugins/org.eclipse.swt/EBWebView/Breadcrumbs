@@ -1,0 +1,50 @@
+6:08:52 Tab16 StartNav42 #typed
+6:08:52 Tab16 FinishNav41
+6:08:52 Tab16 PageLoad
+6:08:52 Tab16 FinishNav42
+6:08:52 Tab16 PageLoad
+6:08:53 Microsoft.Shutdown.OnWindowClosing
+6:08:53 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+6:08:53 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+6:08:53 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+6:08:53 Tab16 RenderProcessGone
+6:08:53 Browser16 Close Tab16 at 0
+6:08:53 Tab16 WebContentsDestroyed
+6:08:53 Microsoft.Shutdown.OnWindowClosing
+6:08:53 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+6:08:53 Widget Closed: BrowserFrame
+6:08:53 Microsoft.Shutdown.OnWindowClosing
+6:08:53 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+6:08:53 Microsoft.Browser_Removed
+6:09:21 Microsoft.NewBrowser_Popup
+6:09:21 Microsoft.BrowserList.AddBrowser
+6:09:21 Browser17 Insert active Tab17 at 0
+6:09:21 Tab17 StartNav43 #auto_toplevel
+6:09:21 Tab17 StartNav44 #typed
+6:09:21 Tab17 FinishNav43
+6:09:21 Tab17 PageLoad
+6:09:21 Tab17 FinishNav44
+6:09:21 Tab17 PageLoad
+6:09:24 Tab17 StartNav45 #typed
+6:09:24 Tab17 FinishNav45
+6:09:24 Tab17 PageLoad
+6:09:25 Tab17 StartNav46 #typed
+6:09:25 Tab17 FinishNav46
+6:09:25 Tab17 PageLoad
+6:09:27 Tab17 StartNav47 #typed
+6:09:27 Tab17 FinishNav47
+6:09:27 Tab17 PageLoad
+6:09:29 Microsoft.Shutdown.OnWindowClosing
+6:09:29 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+6:09:29 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+6:09:29 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+6:09:29 Tab17 RenderProcessGone
+6:09:29 Browser17 Close Tab17 at 0
+6:09:29 Tab17 WebContentsDestroyed
+6:09:29 Microsoft.Shutdown.OnWindowClosing
+6:09:29 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+6:09:29 Widget Closed: BrowserFrame
+6:09:29 Microsoft.Shutdown.OnWindowClosing
+6:09:29 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+6:09:29 Microsoft.Browser_Removed
+6:49:39 Microsoft.Shutdown.OnWindowClosing
