@@ -1,0 +1,32 @@
+package model1.board;
+
+public class BoardDTO {
+	
+	private String num;
+	private String title;
+	private String content;
+	private String id;
+	private java.sql.Date postdate;
+	private String visitcount;
+	private String name;
+	public void setNum(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setTitle(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setContent(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setPostdate(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setId(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+}

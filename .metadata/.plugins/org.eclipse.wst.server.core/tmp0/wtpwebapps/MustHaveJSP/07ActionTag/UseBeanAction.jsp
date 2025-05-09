@@ -11,8 +11,8 @@
 	<jsp:useBean id="person" class="common.Person" />
 	<jsp:setProperty property="*" name="person" />
 	<ul>
-		<li>이름: <jsp:getProperty property="" name=""/>
-		<li>나이:
+		<li>이름: <jsp:getProperty name="person" property="name"/>
+		<li>나이: <jsp:getProperty name="person" property="age"/>
 	</ul>
 </body>
 </html>

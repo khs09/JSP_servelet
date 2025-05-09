@@ -1,0 +1,5 @@
+package board.copy;
+
+public class BoardDTO {
+
+}
