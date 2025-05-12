@@ -19,7 +19,7 @@ public class MemberDAO extends JDBConnect {
 		try {
 			psmt = con.prepareStatement(query);
 			psmt.setString(1, uid);
-			psmt.setString(1, upass);
+			psmt.setString(2, upass);
 			rs = psmt.executeQuery();
 			
 			if (rs.next()) {

@@ -1,3 +1,4 @@
+<%@page import="utils.BoardPage"%>
 <%@page import="model1.board.BoardDTO"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.HashMap"%>
@@ -18,6 +19,9 @@ if (searchWord != null) {
 }
 
 int totalCount = dao.selectCount(param);
+List<BoardDTO> boardLists = dao.selectList(param);
+dao.close();
+%>
 List<BoardDTO> boardLists = dao.selectList(param);
 dao.close();
 %>
@@ -61,8 +65,7 @@ if (boardLists.isEmpty()) {
 else {
     int virtualNum = 0; 
     for (BoardDTO dto : boardLists)
-    {
-        virtualNum = totalCount--;   
+    {  
 %>
       <tr align="center">
          <td><%= virtualNum %></td>
@@ -79,7 +82,7 @@ else {
    </table>
 
    <table border="1" width="90%">
-      <tr align="right">
+      <tr align="center">
          <td><button type="button" onclick="location.href='Write.jsp';">글쓰기
             </button></td>
       </tr>
