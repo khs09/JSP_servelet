@@ -29,4 +29,5 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
 </qualifiedTypeNameHistroy>
