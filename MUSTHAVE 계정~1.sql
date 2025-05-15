@@ -75,3 +75,11 @@ INSERT INTO board VALUES (seq_board_num.nextval, '지금은 여름입니다', '�
 INSERT INTO board VALUES (seq_board_num.nextval, '지금은 가을입니다', '가을동화', 'musthave', sysdate, 0);
 INSERT INTO board VALUES (seq_board_num.nextval, '지금은 겨울입니다', '겨울연가', 'musthave', sysdate, 0);
 commit;
+create table myfile (
+    idx number primary key,
+    title varchar2(200) not null,
+    cate varchar2(100),
+    ofile varchar2(100) not null,
+    sfile varchar2(30) not null,
+    postdate date default sysdate not null
+);
